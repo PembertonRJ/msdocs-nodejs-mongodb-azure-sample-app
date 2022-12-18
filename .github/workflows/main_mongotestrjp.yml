@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'MongoTestrjp'
+          app-name: 'closersmongoapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C9BEFE32E4B4968A9E3EB251F403DC7 }}
           package: .
